@@ -157,6 +157,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# FAISS vector database
+vector_store/
+
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -216,3 +219,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+# Ignore files and folders
+venv/
+__pycache__/
+.env
+*.pyc
+vector_store/
